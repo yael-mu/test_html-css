@@ -90,6 +90,42 @@ html {
     animation: sweep 5s infinite linear;
 }
 
+.radar-blip {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #00ff66;
+    border-radius: 50%;
+    animation: doti 2s ease infinite;
+}
+
+@keyframes doti{
+    50%{
+    box-shadow: 0 0 8px #00ff66, 0 0 12px #00ff66;
+
+    }
+    100%{
+            background-color: #00ff66;
+
+    }
+    
+}
+
+.blip-1 {
+    top: 60px;
+    right: 70px;
+}
+
+.blip-2 {
+    top: 110px;
+    left: 70px;
+}
+
+.blip-3 {
+    bottom: 60px;
+    right: 80px;
+}
+
 @keyframes sweep {
     to {
         transform: rotate(360deg);
