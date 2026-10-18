@@ -341,3 +341,13 @@ button{
     margin: 0px;
     font-size: 25px;
 }
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btn i{
+    margin-right: 5px;
+}
